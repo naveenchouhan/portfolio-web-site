@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tillana", cursive;
+}
+
+
+
+
+#Navigation-bar {
+    text-align: center;
+    color: rgb(247, 178, 5);
+  }
+  
+.nave-link {
+  text-decoration: none;
+  color: #ece220;
+  margin: 1.5%;
+  font-size: 1.2rem;
+}
+.nave-link:hover {
+    text-decoration: none;
+  color: rgb(5, 247, 98);
+}
+
+
+/* ....................................................................... */
+
+
+
+.naveen-name {
+    background: linear-gradient(rgb(247, 178, 5), rgba(255, 231, 96, 0.891));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Tillana", cursive;
+  
+    font-size: 6rem;
+    margin: 10% 0 10% 15%;
+  }
+
+  .naveen-gif {
+    height: 18rem;
+    margin: 1%;
+  }
+  
+  .surname {
+    margin-left: 3%;
+  }
+
+  .row-1 {
+    margin: 12%;
+  }
+  .row-1:hover {
+    box-shadow: 0 0 4vh #e69317;
+    padding-top: 2%;
+  }
+
+/* for about .............................................................................  */
+
+
+
+
+
+
+.about-section {
+    
+  background-image: url(image/jodhpur.jpeg);
+
+  background-size: 100%;
+  background-position: center;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(254, 231, 180);
+}
+.about-headline {
+  font-weight: 900;
+  margin: auto 10%;
+  padding: 2%;
+  font-size: 2%;
+}
+.about-para {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0 10%;
+  padding: 0 2%;
+}
+.internal-para {
+  color: #fbb64e;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.background {
+  width: 100%;
+  height: 100%;
+}
+.about-para {
+  text-align: left;
+}
+
+
+
+/* education ................................................................  */
+
+.edu-head {
+  background: linear-gradient(rgb(47, 248, 67), #9ef6cbe3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Tillana", cursive;
+
+  margin: 5% 12% 2%;
+}
+.edu-table {
+  margin: 0;
+  align-items: center;
+  color: rgb(47, 248, 67);
+}
+.table-content {
+  text-align: center;
+  width: 75.1%;
+  margin: 2% 12%;
+  border: solid rgb(144, 246, 175);
+}
+.edu-link {
+  text-decoration: none;
+  color: rgb(47, 248, 67);
+}
+.edu-link:hover {
+  color: rgb(71, 191, 243);
+}
+
+
+
+
+
+/* achievements ...........................................................................  */
+
+
+
+#acheivments {
+    margin: 7% 10%;
+  }
+.achiev-head {
+  background: linear-gradient(rgb(47, 248, 67), #9ef6cbe3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Tillana", cursive;
+  margin: 5% 2% 2%;
+}
+.achiev-data {
+  color: aquamarine;
+  font-family: "Tillana", cursive;
+  color: rgb(132, 212, 140);
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.4rem;
+}
+.achiev-table-main {
+  width: 95%;
+  margin: 3% 2%;
+}
+.achiev-table {
+  border: solid rgb(144, 246, 175);
+}
+
+.summary-para {
+  color: #ece220;
+  padding: 0 20px;
+  line-height: 0.99;
+  color: #e69317;
+}
+
+.summary-para a {
+  color: #e69317;
+  margin: 0;
+}
+.summary-para a:hover {
+  color: aqua;
+}
+
+.table-data {
+  padding: 3px 5px;
+}
+
+
+
+/* for projetcs .......................................................... /  */
+
+.Project-head {
+  background: linear-gradient(rgb(47, 248, 67), #9ef6cbe3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Tillana", cursive;
+
+  margin: 5% 12% 2%;
+}
+.CARASOL {
+  margin: 12%;
+  box-shadow: 0 0 4vh orange;
+}
+.CARA-sol {
+  text-align: center;
+  margin: auto 10%;
+}
+.CARA-image {
+  width: 70%;
+  height: auto;
+}
+#testimonials {
+  background-color: #000000;
+  color: #fff;
+
+  text-align: center;
+}
+.testimonial-image {
+  width: 77%;
+  height: 30%;
+  box-shadow: 0 0 4vh rgb(120, 237, 174);
+}
+.carousel-item {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+
+
+
+/* for contact me /...................................................... / */
+
+#Contact-me {
+  background-color: #20262E;
+  margin: 2% auto 0;
+  padding: 1%;
+}
+.contact-head {
+  background: linear-gradient(rgb(47, 248, 67), #9ef6cbe3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Tillana", cursive;
+
+  margin: 5% 15% 2%;
+}
+.social-med {
+  font-size: 2rem;
+
+}
+
+.social-med-image {
+  margin-right: 15px;
+  color: rgb(48, 241, 112);
+}
+.social-med-image:hover{
+    color: rgba(242, 191, 82, 0.823);
+}
+.row-2 {
+    padding: 2%;
+  margin: 2% 13.7%;
+  color: rgb(48, 241, 112);
+}
+
+
+.contact-para {
+    color: rgb(56, 237, 171);
+    font-size: 1.2rem;
+}
+.row-3{
+    
+    margin: 2% 15% 2%;
+}
+.COL-2{
+    padding: 2px;
+}
+
+/* for copyright ............................................................... */
+.Copy{
+    text-align: center;
+    color: rgb(7, 128, 81);
+}
+
+
+
+
+/* for media query ...............................................  */
+
+
+
+@media only screen and (max-width: 767px) {
+    
+
+/* for name....................................................  */
+.naveen-name {
+    background: linear-gradient(rgb(247, 178, 5), rgba(255, 231, 96, 0.891));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Tillana", cursive;
+    text-align: center;
+    font-size: 4rem;
+    margin: 7%
+  }
+
+  .naveen-gif {
+    
+    height: 13rem;
+    margin: 7%;
+  }
+  
+  .surname {
+   text-align: center;
+  }
+
+  .row-1 {
+    text-align: center;
+    margin: 15% 5%;
+  }
+  .row-1:hover {
+    box-shadow: 0 0 4vh #28f487;
+    padding-top: 2%;
+  }
+  
+
+/* for about section.........................................  */
+
+#about{
+    margin: 10% auto;
+  }
+.about-section {
+    
+    background-image: url(image/jodhpur.jpeg);
+    
+    background-size: 400%;
+    background-position: center;
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(254, 231, 180);
+  }
+  .about-headline {
+    font-weight: 900;
+    margin: 15% 10% auto;
+    padding: 15% 2% 0;
+    font-size: 2%;
+  }
+  .about-para {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 10% 10%;
+    padding: 0 2%;
+  }
+  .internal-para {
+    color: #fbb64e;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .background {
+    width: 100%;
+    height: 100%;
+  }
+  .about-para {
+    text-align: left;
+  }
+  
+
+/* for education ..............................................................  */
+  #Education{
+    margin: 15% auto;
+  }
+/* for acheivemnets .................................................................  */
+  #acheivments{
+    margin: 15% 10%;
+  }
+/* for .testimonial ......................................................  */
+
+  #Testimonials{
+    margin: 15% auto;
+  }
+  
+/* for contact me ..................................................    */
+#Contact-me {
+    background-color: #20262E;
+    margin: 15% auto 0;
+    padding: 7% auto 0;
+  }
+  .contact-head {
+    background: linear-gradient(rgb(47, 248, 67), #9ef6cbe3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Tillana", cursive;
+  
+    margin: 7% 13%;
+  }
+  .social-med {
+    font-size: 2rem;
+  
+  }
+  
+  .social-med-image {
+    margin-right: 15px;
+    color: rgb(48, 241, 112);
+  }
+  .social-med-image:hover{
+      color: rgba(242, 191, 82, 0.823);
+  }
+  .row-2 {
+      padding: 2%;
+    margin: 2% 13.7%;
+    color: rgb(48, 241, 112);
+  }
+  
+  
+  .contact-para {
+      color: rgb(56, 237, 171);
+      font-size: 1.2rem;
+  }
+  .row-3{
+      
+      margin: 2% 15% 2%;
+  }
+  .COL-1{
+    padding: 15px 2px;
+  }
+  .COL-2{
+    
+      padding: 2px;
+  }
+  
+  /* for copyright ............................................................... */
+  .Copy{
+      text-align: center;
+      color: rgb(7, 128, 81);
+  }
+
+
+}
+  
